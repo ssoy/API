@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h2>일일 박스 오피스</h2>
-	<form name="frmList" action="${path}/dailyTop" method="post">
+	<form name="frmList" action="${path}/dailyTop" method="post"> 
 		<input type="date" name="targetDt" required="required"
 			value="${targetDt}"> <select name="multiMovieYn">
 
