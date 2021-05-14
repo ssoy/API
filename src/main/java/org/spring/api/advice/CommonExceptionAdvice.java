@@ -10,6 +10,6 @@ public class CommonExceptionAdvice {
 	public void common(Exception e) {
 		System.out.println("예외발생");
 		System.out.println(e.toString());
-		e.printStackTrace();
+		e.printStackTrace();  
 	}
 }
